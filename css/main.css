@@ -1,6 +1,9 @@
 body{
     background-color: #E8E8E8;
 }
+.a_tbdr{
+    border: 1px solid black;
+}
 
 header{
     min-height: 81px;
@@ -35,6 +38,7 @@ ul >li>a:hover{
 .mt-5.a_mt-5 {
     margin-top: 5rem!important;
 }
+
 .a_footer1{
     height:261px;
 }
@@ -98,12 +102,7 @@ ul >li>a:hover{
    color:#333!important;
    opacity:0.5!important;
 }
-@media screen and(min-width:577px){
 
-    .a_logo{
-        height:50px;
-    }
-}
 
 @media screen and (max-width: 576px)
 {
@@ -112,6 +111,9 @@ ul >li>a:hover{
     }
     header{
         width:100%;
+    }
+    .a_mt-5{
+        padding-top: 30px;
     }
 }
 
