@@ -10,6 +10,9 @@ header{
 main{
     height:3670px;
 }
+.a_tnr{
+    font-family: 'Times New Roman', Times, serif;
+}
 .a_logo{
     cursor:pointer;
 }
@@ -46,6 +49,54 @@ ul >li>a:hover{
 }
 .a_footer5{
     height:98px;
+}
+::-webkit-input-placeholder {
+ 
+   font-size: 15px;
+   font-weight: bold;
+   color:#333!important;
+   opacity:0.5!important;
+}
+ 
+ :-moz-placeholder { /* Firefox 18- */
+ 
+   font-size: 15px;
+   font-weight: bold;
+   color:#333!important;
+   opacity:0.5!important;
+}
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+ 
+   font-size: 15px;
+   font-weight: bold;
+   color:#333!important;
+   opacity:0.5!important;
+}
+ 
+ /* Overriding styles */
+ 
+ ::-webkit-input-placeholder {
+ 
+   font-size: 15px!important;
+   font-weight: bold;
+   color:#333!important;
+   opacity:0.5!important;
+}
+ 
+ :-moz-placeholder { /* Firefox 18- */
+ 
+   font-size: 15px!important;
+   font-weight: bold;
+   color:#333!important;
+   opacity:0.5!important;
+}
+ ::-moz-placeholder {  /* Firefox 19+ */
+ 
+   font-size: 15px!important;
+   font-weight: bold;
+   color:#333!important;
+   opacity:0.5!important;
 }
 @media screen and(min-width:577px){
 
