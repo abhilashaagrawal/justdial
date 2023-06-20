@@ -1,9 +1,7 @@
 body{
     background-color: #E8E8E8;
 }
-.a_tbdr{
-    border: 1px solid black;
-}
+
 
 header{
     min-height: 81px;
@@ -115,6 +113,13 @@ ul >li>a:hover{
     .a_mt-5{
         padding-top: 30px;
     }
+   footer{
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    width:100%;
+   }
+  
 }
 
 
