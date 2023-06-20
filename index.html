@@ -12,73 +12,93 @@
     <body>
       
           <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal hide" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
               <div class="modal-content">
-                <div class="modal-header border-bottom-0">
-                  <div class="float-start">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                </div>
-                <div class="modal-body">
-                  <div class="row m-0">
-                    <div class="col p-0">
-                      <a class="text-secondary-emphasis btn fw-semibold fs-5 mb-4" href="#">Sign in</a>
+                <div class="modal-body p-0">
+                  <div class="d-none">
+                    <div class="modal-header border-bottom-0 clearfix">
+                      <div class="float-start">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
                     </div>
-                    <div class="col p-0 text-end">
-                      <a href="#">
-                        <img class="img-fluid w-25 pe-2" src="./img/profiledefault.png"/>
-                      </a>
+                    <div class="row m-0">
+                      <div class="col p-0 ps-2">
+                        <a class="text-secondary-emphasis btn fw-semibold fs-5 mb-4" href="#">Sign in</a>
+                      </div>
+                      <div class="col p-0 text-end pe-4">
+                        <a href="#">
+                          <img class="img-fluid w-25 pe-2" src="./img/profiledefault.png"/>
+                        </a>
+                      </div>
                     </div>
+                    <div class="mb-3 ps-3">
+                      <a class="btn border rounded-pill ps-3 pe-3 me-2" href="#">Saved</a>
+                      <a class="btn border rounded-pill ps-3 pe-3 me-2" href="#">Favourites</a>
+                      <a class="btn border rounded-pill ps-3 pe-3" href="#">Interests</a>
+                    </div>
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active text-body-tertiary fw-medium mb-3 ps-3" aria-current="page" href="#"><img class="img-fluid me-3" src="./img/Languageicn.svg"/>English<span class="float-end pe-3">Change language</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/helpicn.svg"/>Customer Service</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/listbusinessicn.svg"/>List Your Business <img class="img-fluid ms-2" style="height:23px" src="./img/freeanimation2x.gif"/></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/advertiseicn.svg"/>Advertise</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/mytransactions-icn.svg"/>My Transactions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/mytransactions-icn.svg"/>Wishlist</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/managequotesicn.svg"/>Manage Quotes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/we-are-hiring.svg"/>We are hiring</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/settings.svg"/>Settings</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/privacyicn.svg"/>Privacy Policy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/investors_relation.svg"/>Investor Relations</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/newproductsicn.svg"/>What's New</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/othersicn.svg"/>Others</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body-tertiary fw-medium mb-3 ps-3" href="#"><img class="img-fluid me-3" src="./img/logouticn1.svg"/>Login</a>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="mb-3">
-                    <a class="btn border rounded-pill ps-3 pe-3 me-2" href="#">Saved</a>
-                    <a class="btn border rounded-pill ps-3 pe-3 me-2" href="#">Favourites</a>
-                    <a class="btn border rounded-pill ps-3 pe-3" href="#">Interests</a>
+                  <div class="d-block">
+                    <img class="img-fluid" src="./img/login_banner_28mar.avif"/>
+                    <form class=" bg-white pt-3 p-5 rounded-bottom-0 rounded-4 position-relative" style="top:-8px">
+              
+                      <div class="mb-3 text-center mt-2">
+                        <h4>India′s # 1 Local Search Engine</h4>
+                      </div>
+                      <div class="mb-3">
+                        <input type="number" placeholder="Mobile Number" class="form-control shadow-none" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                   </div>
-                  <ul class="nav flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link active text-secondary fw-medium mb-3 ps-0" aria-current="page" href="#"><img class="img-fluid me-3" src="./img/Languageicn.svg"/>English<span class="float-end">Change language</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/helpicn.svg"/>Customer Service</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/listbusinessicn.svg"/>List Your Business <button class=" border border-0 btn btn-danger pt-0 pb-0 ms-1 rounded-1" type="button">Free</button></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/advertiseicn.svg"/>Advertise</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/mytransactions-icn.svg"/>My Transactions</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/mytransactions-icn.svg"/>Wishlist</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/managequotesicn.svg"/>Manage Quotes</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/we-are-hiring.svg"/>We are hiring</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/settings.svg"/>Settings</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/privacyicn.svg"/>Privacy Policy</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/investors_relation.svg"/>Investor Relations</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/newproductsicn.svg"/>What's New</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/othersicn.svg"/>Others</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-secondary fw-medium mb-3 ps-0" href="#"><img class="img-fluid me-3" src="./img/logouticn1.svg"/>Login</a>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -87,7 +107,7 @@
             <header class="a_tbdr fixed-top bg-white border-bottom">
                  <div class="row m-0 h-100 ">
                     <div class="d-flex align-items-center p-0 col-4 col-sm-2 a_form_col a_tbdr">
-                      <img class="btn a_logo pt-2 ps-3 " src="./img/logo.svg"/>
+                      <img class="btn a_logo pt-2 ps-3 img-fluid " src="./img/logo.svg"/>
                     </div>
                     <div class="p-0 col-8 col-sm-3 a_form_col a_tbdr">
                       <div class="d-block d-sm-none">
@@ -96,7 +116,7 @@
                             <a class="nav-link active bg-primary ps-3 pe-3 pt-1 text-white rounded-pill mt-2 mb-1 fs-6 " aria-current="page" href="#">OPEN APP</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link ps-2 pe-2 mt-1 mb-1" href="#"><img src="./img/notification.svg"/></a>
+                            <a class="nav-link ps-2 pe-2 mt-1 mb-1" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./img/notification.svg"/></a>
                           </li>
                           <li class="nav-item ">
                             <a class="nav-link ps-2 pe-2 mt-1 mb-1" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./img/logonew.svg"/></a>
@@ -170,57 +190,57 @@
                   <div class="col-3 p-0 a_tbdr d-flex align-items-center">
                     <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/hand.gif"/>B2B</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/doc.svg"/>Doctors</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto ">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/doc.svg"/>Doctors</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                     <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/travel.svg"/>Travel</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                     <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/travel.svg"/>Travel</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/beauty.svg"/>Beauty</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/beauty.svg"/>Beauty</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/interiordesigners.svg"/>Interiors Designers</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/interiordesigners.svg"/>Interiors Designers</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/consultants.svg"/>Consultants</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/consultants.svg"/>Consultants</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/renthire.svg"/>Rent & Hire</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/renthire.svg"/>Rent & Hire</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/weddingrequisites.svg"/>Wedding Requities</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/weddingrequisites.svg"/>Wedding Requities</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/homeservices.svg"/>Home Services</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/homeservices.svg"/>Home Services</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/jobconsultants.svg"/>Jobs</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/jobconsultants.svg"/>Jobs</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/repairsservices.svg"/>Repairs & Services</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/repairsservices.svg"/>Repairs & Services</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/pghostelhotkey2xnew.gif"/>PG/Hostel</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/pghostelhotkey2xnew.gif"/>PG/Hostel</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/loans.svg"/>Loans</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/loans.svg"/>Loans</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/realestate.svg"/>Real Estate</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/realestate.svg"/>Real Estate</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/education.svg"/>Education</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/education.svg"/>Education</a>
                   </div>
-                  <div class="col-3 p-0 a_tbdr d-flex align-items-center">
-                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid" src="./img/showmore.svg"/>Show More</a>
+                  <div class="col-3 p-0 a_tbdr d-flex align-items-center mx-auto">
+                    <a href="#" class="btn btn-sm text-center"><img class="img-fluid d-block" src="./img/showmore.svg"/>Show More</a>
                   </div>
                 </div>
               </div>
-              <div class="a_m2">
+              <div class="a_m2 mt-4">
                 <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/free_listing_banner _14march.avif"/></a>
               </div>
-              <div class="a_m3">
+              <div class="a_m3 mt-2">
                 <div class="row m-0 ">
                     <div class="col-3 p-0">
                       <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/food.webp"/></a>
@@ -236,35 +256,97 @@
                     </div>
                   </div>
               </div>
-              <div class="a_m4">
+              <div class="a_m4 mt-2">
                   <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/doctor-consultation_hm_29may.gif"/></a>
               </div>
-              <div class="a_m5">
+              <div class="a_m5 mt-1">
+                  <div class="row">
+                      <div class="col">
+                        <a href="#" class="btn">Home Services</a>
+                      </div>
+                      <div class="col text-end">
+                        <i class="fa-solid fa-angle-right btn"></i>
+                      </div>
+                  </div>
                   <div class="row m-0">
-                    <div class="col-11 p-0">
-                      <a href="#" class="btn"><p>Home Services</p></a>
+                    <div class="col-3 p-0">
+                      <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/1.webp"/></a>
                     </div>
-                    <div class="col-1 p-0">
-                      <i class="fa-solid fa-angle-right btn ps-1"></i>
+                    <div class="col-3 p-0">
+                      <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/2.webp"/></a>
+                    </div>
+                    <div class="col-3 p-0">
+                      <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/3.webp"/></a>
+                    </div>
+                    <div class="col-3 p-0">
+                      <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/4.avif"/></a>
                     </div>
                   </div>
               </div>
-              <div class="a_m6">
-                    <div class="row m-0">
-                      <div class="col-3 p-0">
-                        <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/1.webp"/></a>
-                      </div>
-                      <div class="col-3 p-0">
-                        <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/2.webp"/></a>
-                      </div>
-                      <div class="col-3 p-0">
-                        <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/3.webp"/></a>
-                      </div>
-                      <div class="col-3 p-0">
-                        <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/4.avif"/></a>
-                      </div>
+              <div class="a_m6 mt-1">
+                <div class="row">
+                    <div class="col">
+                      <a href="#" class="btn">Automobile</a>
                     </div>
+                    <div class="col text-end pe-4">
+                      <img class="img-fluid" src="./img/right-arrow-21.svg"/>
+                    </div>
+                </div>
+                <div class="row m-0">
+                  <div class="col-6 p-0">
+                    <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/newcar.webp"/></a>
+                  </div>
+                  <div class="col-6 p-0">
+                    <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/usedcar.webp"/></a>
+                  </div>
+                  <div class="col-6 p-0 mt-2">
+                    <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/sellcar.webp"/></a>
+                  </div>
+                  <div class="col-6 p-0 mt-2">
+                    <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/bikes.webp"/></a>
+                  </div>
+                </div>
+                <div class="a_m7 mt-1">
+                  <div class="row">
+                      <div class="col">
+                        <a href="#" class="btn">Rent & Hire</a>
+                      </div>
+                      <div class="col text-end">
+                        <i class="fa-solid fa-angle-right btn"></i>
+                      </div>
+                  </div>
+                  <div class="row m-0">
+                    <div class="col-3 p-0">
+                      <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/hirevehicles.webp"/></a>
+                    </div>
+                    <div class="col-3 p-0">
+                      <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/rentclothes.webp"/></a>
+                    </div>
+                    <div class="col-3 p-0">
+                      <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/rentfurniture.webp"/></a>
+                    </div>
+                    <div class="col-3 p-0">
+                      <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/rentappliances.webp"/></a>
+                    </div>
+                  </div>
               </div>
+              <div class="a_m8 mt-1">
+                <div class="row">
+                    <div class="col">
+                      <a href="#" class="btn">Real Estate</a>
+                    </div>
+                    <div class="col text-end">
+                      <i class="fa-solid fa-angle-right btn"></i>
+                    </div>
+                </div>
+                <div class="row m-0">
+                  <div class="col-3 p-0">
+                    <a href="#" class="btn btn-sm"><img class="img-fluid" src="./img/realestate-t-8nov.jpg"/></a>
+                  </div>
+                </div>
+            </div>
+            </div>
+             
               
             </main>
             <footer class="a_tbdr bg-white">
