@@ -2,15 +2,12 @@ body{
     background-color: #E8E8E8;
 }
 
-
 header{
     min-height: 81px;
     width:95.2%;
     margin: auto;
 }
-main{
-    height:3670px;
-}
+
 .a_tnr{
     font-family: 'Times New Roman', Times, serif;
 }
