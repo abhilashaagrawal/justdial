@@ -4,6 +4,12 @@ body{
 .a_tbdr{
     border:1px dashed red;
 }
+header{
+    min-height: 81px;
+    width:95.2%;
+    margin: auto;
+    z-index: 1000;
+}
 main{
     min-height: 1800px;
 }
@@ -18,10 +24,23 @@ main{
     height: 6px !important;
     width: 6px !important;
 }
-.a_cou span{
-    width: 12px !important;
-    height: 12px !important;
+ .a_ccp span,.a_ccn span{
+    width:15px;
+    height:15px;
+ }
+ .a_m11_slider:hover{
+    cursor: pointer;
 }
+.a_m11_slider .a_ccp , .a_m11_slider .a_ccn{
+    width:25px;
+    height:25px;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.9);
+    visibility: hidden;
+}
+ .a_m11_slider:hover .a_ccp,.a_m11_slider:hover .a_ccn{
+    visibility: visible;
+ }
 .a_m22_icon>li>a:hover{
     background-color: #fff;
 }
@@ -30,11 +49,6 @@ main{
 }
 .a_f1>div>a:focus{
     border: none;
-}
-header{
-    min-height: 81px;
-    width:95.2%;
-    margin: auto;
 }
 
 .a_tnr{
