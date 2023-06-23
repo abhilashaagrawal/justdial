@@ -6,9 +6,10 @@ body{
 }
 header{
     min-height: 81px;
-    width:95.2%;
+    width:100%;
     margin: auto;
     z-index: 1000;
+  
 }
 main{
     min-height: 1800px;
@@ -27,6 +28,12 @@ main{
  .a_ccp span,.a_ccn span{
     width:15px;
     height:15px;
+ }
+ .a_m00{
+    height:120px;
+ }
+ .a_m22{
+    height: 320px;
  }
  .a_m11_slider:hover{
     cursor: pointer;
