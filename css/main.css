@@ -2,7 +2,7 @@ body{
     background-color: #E8E8E8;
 }
 .a_tbdr{
-    border:1px dashed red;
+    border:1px dashed black;
 }
 header{
     min-height: 81px;
@@ -18,8 +18,20 @@ main{
     height: 275px;
 } */
 .a_m11_slider img{
-    height: 275px;
+    height: 240px;
     width: 100%;
+}
+.a_m1img{
+    background-color: #0F7DD8;
+}
+.a_m2img{
+    background-color: #A100CF;
+}
+.a_m3img{
+    background-color:#6769D0 ;
+}
+.a_m4img{
+    background-color:#00AC7D ;
 }
 .carousel-indicators button{
     height: 6px !important;
@@ -32,8 +44,17 @@ main{
  .a_m00{
     height:120px;
  }
+ .a_orange{
+    background-color: #fe610c !important;
+ }
  .a_m22{
     height: 320px;
+ }
+ .a_m33{
+    height: 448px;
+ }
+ .a_m44{
+    height: 520px;
  }
  .a_m11_slider:hover{
     cursor: pointer;
